@@ -41,7 +41,7 @@ używających biblioteki ppx_pipebang.
 
 %package devel
 Summary:	A ppx rewriter that inlines reverse application operators |> and |! - development part
-Summary(pl.UTF-8):	Moduł przepisujący ppx rozwijający w miejscu operatory odwrotnej aplikacji |> i |! - cześć programistyczna
+Summary(pl.UTF-8):	Moduł przepisujący ppx rozwijający w miejscu operatory odwrotnej aplikacji |> i |! - część programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
