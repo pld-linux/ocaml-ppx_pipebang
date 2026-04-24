@@ -69,7 +69,7 @@ dune install --destdir=$RPM_BUILD_ROOT
 # sources
 %{__rm} $RPM_BUILD_ROOT%{_libdir}/ocaml/ppx_pipebang/*.ml
 # packaged as %doc
-%{__rm} -r $RPM_BUILD_ROOT%{_prefix}/doc/ppx_pipebang
+%{__rm} -r $RPM_BUILD_ROOT%{_docdir}/ppx_pipebang
 
 %clean
 rm -rf $RPM_BUILD_ROOT
