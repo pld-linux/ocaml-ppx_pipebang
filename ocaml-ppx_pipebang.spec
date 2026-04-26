@@ -11,7 +11,7 @@ Summary:	A ppx rewriter that inlines reverse application operators |> and |!
 Summary(pl.UTF-8):	Moduł przepisujący ppx rozwijający w miejscu operatory odwrotnej aplikacji |> i |!
 Name:		ocaml-ppx_pipebang
 Version:	0.14.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/janestreet/ppx_pipebang/tags
